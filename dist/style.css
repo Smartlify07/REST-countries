@@ -336,6 +336,16 @@ main {
 }
 
 /* Screen sizes */
+
+/* Tablet */
+
+@media screen and (width > 768px) and (width < 1100px) {
+  .countries-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile */
 @media screen and (width < 768px) {
   .navbar {
     padding: 1.5rem;
